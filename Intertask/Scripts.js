@@ -33,7 +33,7 @@
 function login() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
-
+   vsr confirmpass = document.getElementById("confpassword").value;
     
     if (email !== "" && password !== "") {   //call your backend api    
         console.log("Login successful");
